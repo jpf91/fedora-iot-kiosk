@@ -1,3 +1,3 @@
-FROM ghcr.io/jpf91/fedora-iot:latest
+FROM quay.io/jpfau/fedora-iot-oci:latest
 
-RUN rpm-ostree install phosh && ostree container commit
+RUN rpm-ostree install phoc squeekboard && ostree container commit
